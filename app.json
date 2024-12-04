@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "SesiApp",
+    "slug": "SesiApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logoSesi.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logoSesi.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ochicog.sesi"
+    },
+    "web": {
+      "favicon": "./assets/logoSesi.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d2e1ec31-0514-4715-8bf4-07db89bfca0f"
+      }
+    }
+  }
+}
